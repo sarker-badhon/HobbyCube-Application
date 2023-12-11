@@ -1,0 +1,140 @@
+.btn-color{
+    background-color: #8064A2;
+    color: white;
+}
+.primary-text-color{
+    color: #8064A2;
+}
+.custom-border-color {
+    border-color: #8064A2; 
+    color: #8064A2;
+    
+  }
+.custom-border-color:hover {
+    color: white;
+    background-color:#8064A2;
+  }
+  .text_color{
+    color: #8064A2;
+  }
+
+  .menu_icon{
+
+    display: flex;
+    border: none;
+    list-style: none;
+    align-items: center;
+  }
+  .small_device{
+    display: flex;
+  }
+  .togle_btn{
+    height: 30px;
+    width: 30px;
+  }
+  .policy_text{
+    color:rgba(109, 116, 122, 1);
+  }
+  .sigin_btn{
+    font-size: 20px;
+    font-weight: 800px;
+  }
+  
+
+
+
+h2 span {
+    font-weight: bold;
+}
+
+.banner_img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    text-sm-center {
+      text-align: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    h2 {
+        font-size: 1.8em;
+    }
+    text-lg-start {
+      text-align: start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .reverse-order {
+      flex-direction: column-reverse;
+  }
+}
+
+/* card section */
+.card_people {
+  border: 1px solid rgba(128, 100, 162, 1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.card_people:hover {
+  background-color: rgba(128, 100, 162, 1);
+  color:white
+}
+.card_place{
+  border: 1px solid rgba(119, 147, 60, 1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.card_place:hover {
+  background-color: rgba(119, 147, 60, 1);
+  color:white
+}
+.card_product {
+  border: 1px solid rgba(192, 80, 77, 1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.card_product:hover {
+  background-color: rgba(192, 80, 77, 1);
+  color:white
+}
+.card_program {
+  border: 1px solid rgba(0, 150, 200, 1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.card_program:hover {
+  background-color: rgba(0, 150, 200, 1);
+  color:white
+}
+
+/* -----------------------scroll To Top Btn-------------------- */
+
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #8064A2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+  
+}
+
+#scrollToTopBtn:hover {
+  background-color: #7423d8;
+}
